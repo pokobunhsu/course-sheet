@@ -11,72 +11,77 @@
             我的課表
         </div>
     </div>-->
-    <div style="width: 100%;background-color:white;position: fixed;right: 0;">
-        <div style="width: 100%;background-color:plum ;border-radius: 20px;margin-top: 10px;display: grid;
+    <div style="width: 100%;background-color:white;position: fixed;right: 0;bottom: 0;">
+        <div style="width: 100%;background-color:plum ;border-radius: 20px;margin-bottom: 10px;display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;">
-            <div style="padding: 10px;text-align: center;">一</div>
-            <div style="padding: 10px;text-align: center;">二</div>
-            <div style="padding: 10px;text-align: center;">三</div>
-            <div style="padding: 10px;text-align: center;">四</div>
-            <div style="padding: 10px;text-align: center;">五</div>
+            <div id="one" style="padding: 10px;text-align: center;font-size: 25px;">一</div>
+            <div id="two" style="padding: 10px;text-align: center;font-size: 25px;">二</div>
+            <div id="three" style="padding: 10px;text-align: center;font-size: 25px;">三</div>
+            <div id="four" style="padding: 10px;text-align: center;font-size: 25px;">四</div>
+            <div id="five" style="padding: 10px;text-align: center;font-size: 25px;">五</div>
         </div>
     </div>
-
-    <br><br>
-    <div style="width: 100%;background-color:#e4dace ;border-radius: 20px;margin-top: 10px;display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;color: black;">
-        <div class="smbox" id="w1-1" style="background-color: #e8e9aa;"></div>
-        <div class="smbox" id="w2-1" style="background-color: #a1f196;">科技英文(二)</div>
-        <div class="smbox" id="w3-1" style="background-color: #f5c4c4;"></div>
-        <div class="smbox" id="w4-1" style="background-color: #9cd5e4;">分類通識</div>
-        <div class="smbox" id="w5-1" style="background-color: #f7dd98;"></div>
-        
-        <div class="smbox" id="w1-2" style="background-color: #e8e9aa;">資料結構</div>
-        <div class="smbox" id="w2-2" style="background-color: #a1f196;">科技英文(二)</div>
-        <div class="smbox" id="w3-2" style="background-color: #f5c4c4;">嵌入式微算機系統</div>
-        <div class="smbox" id="w4-2" style="background-color: #9cd5e4;">分類通識</div>
-        <div class="smbox" id="w5-2" style="background-color: #f7dd98;">虛擬實境實務</div>
-
-        <div class="smbox" id="w1-3" style="background-color: #e8e9aa;">Java程式設計</div>
-        <div class="smbox" id="w2-3" style="background-color: #a1f196;">資料庫系統概論</div>
-        <div class="smbox" id="w3-3" style="background-color: #f5c4c4;">嵌入式微算機系統</div>
-        <div class="smbox" id="w4-3" style="background-color: #9cd5e4;"></div>
-        <div class="smbox" id="w5-3" style="background-color: #f7dd98;">虛擬實境實務</div>
-        
-        <div class="smbox" id="w1-4" style="background-color: #e8e9aa;">Java程式設計</div>
-        <div class="smbox" id="w2-4" style="background-color: #a1f196;">資料庫系統概論</div>
-        <div class="smbox" id="w3-4" style="background-color: #f5c4c4;">嵌入式微算機系統</div>
-        <div class="smbox" id="w4-4" style="background-color: #9cd5e4;"></div>
-        <div class="smbox" id="w5-4" style="background-color: #f7dd98;">虛擬實境實務</div>
+    <div style="text-align: center;margin-top: 10px;">
+        上午
     </div>
-        <!--下午-->
-    <div style="width: 100%;background-color:lavenderblush ;border-radius: 20px;margin-top: 10px;display: grid;
+    <div id="sun" style="width: 100%;background-color:#ffffff ;border-radius: 20px;margin-top: 10px;display: grid;color: black;">
+        <div class="smbox" id="w1-1" style="background-color: #e8e9aa;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w2-1" style="background-color: #a1f196;display:flex;align-items:center;">科技英文(二)</div>
+        <div class="smbox" id="w3-1" style="background-color: #f5c4c4;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w4-1" style="background-color: #9cd5e4;display:flex;align-items:center;">分類通識</div>
+        <div class="smbox" id="w5-1" style="background-color: #f7dd98;display:flex;align-items:center;"></div>
+        
+        <div class="smbox" id="w1-2" style="background-color: #e8e9aa;display:flex;align-items:center;">資料結構</div>
+        <div class="smbox" id="w2-2" style="background-color: #a1f196;display:flex;align-items:center;">科技英文(二)</div>
+        <div class="smbox" id="w3-2" style="background-color: #f5c4c4;display:flex;align-items:center;">嵌入式微算機系統</div>
+        <div class="smbox" id="w4-2" style="background-color: #9cd5e4;display:flex;align-items:center;">分類通識</div>
+        <div class="smbox" id="w5-2" style="background-color: #f7dd98;display:flex;align-items:center;">虛擬實境實務</div>
+
+        <div class="smbox" id="w1-3" style="background-color: #e8e9aa;display:flex;align-items:center;">Java程式設計</div>
+        <div class="smbox" id="w2-3" style="background-color: #a1f196;display:flex;align-items:center;">資料庫系統概論</div>
+        <div class="smbox" id="w3-3" style="background-color: #f5c4c4;display:flex;align-items:center;">嵌入式微算機系統</div>
+        <div class="smbox" id="w4-3" style="background-color: #9cd5e4;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w5-3" style="background-color: #f7dd98;display:flex;align-items:center;">虛擬實境實務</div>
+        
+        <div class="smbox" id="w1-4" style="background-color: #e8e9aa;display:flex;align-items:center;">Java程式設計</div>
+        <div class="smbox" id="w2-4" style="background-color: #a1f196;display:flex;align-items:center;">資料庫系統概論</div>
+        <div class="smbox" id="w3-4" style="background-color: #f5c4c4;display:flex;align-items:center;">嵌入式微算機系統</div>
+        <div class="smbox" id="w4-4" style="background-color: #9cd5e4;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w5-4" style="background-color: #f7dd98;display:flex;align-items:center;">虛擬實境實務</div>
+    </div>
+    <br>
+<!--下午-->
+    <div style="text-align: center;margin-top: 10px;">
+        下午
+    </div>
+    <div id="aft" style="width: 100%;background-color:white ;border-radius: 20px;margin-top: 10px;display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;">
-        <div class="smbox" id="w1-5" style="background-color: #e8e9aa;"></div>
-        <div class="smbox" id="w2-5" style="background-color: #a1f196;">資料庫系統概論</div>
-        <div class="smbox" id="w3-5" style="background-color: #f5c4c4;"></div>
-        <div class="smbox" id="w4-5" style="background-color: #9cd5e4;">資料結構</div>
-        <div class="smbox" id="w5-5" style="background-color: #f7dd98;">Java程式設計</div>
+        <div class="smbox" id="w1-5" style="background-color: #e8e9aa;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w2-5" style="background-color: #a1f196;display:flex;align-items:center;">資料庫系統概論</div>
+        <div class="smbox" id="w3-5" style="background-color: #f5c4c4;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w4-5" style="background-color: #9cd5e4;display:flex;align-items:center;">資料結構</div>
+        <div class="smbox" id="w5-5" style="background-color: #f7dd98;display:flex;align-items:center;">Java程式設計</div>
 
-        <div class="smbox" id="w1-6" style="background-color: #e8e9aa;"></div>
-        <div class="smbox" id="w2-6" style="background-color: #a1f196;">中文閱讀與表達(三)</div>
-        <div class="smbox" id="w3-6" style="background-color: #f5c4c4;"></div>
-        <div class="smbox" id="w4-6" style="background-color: #9cd5e4;">資料結構</div>
-        <div class="smbox" id="w5-6" style="background-color: #f7dd98;">Java程式設計</div>
+        <div class="smbox" id="w1-6" style="background-color: #e8e9aa;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w2-6" style="background-color: #a1f196;display:flex;align-items:center;">中文閱讀與表達(三)</div>
+        <div class="smbox" id="w3-6" style="background-color: #f5c4c4;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w4-6" style="background-color: #9cd5e4;display:flex;align-items:center;">資料結構</div>
+        <div class="smbox" id="w5-6" style="background-color: #f7dd98;display:flex;align-items:center;">Java程式設計</div>
 
-        <div class="smbox" id="w1-7" style="background-color: #e8e9aa;"></div>
-        <div class="smbox" id="w2-7" style="background-color: #a1f196;">計算機架構</div>
-        <div class="smbox" id="w3-7" style="background-color: #f5c4c4;"></div>
-        <div class="smbox" id="w4-7" style="background-color: #9cd5e4;">歷史文明通論</div>
-        <div class="smbox" id="w5-7" style="background-color: #f7dd98;">英語能力檢測輔導</div>
+        <div class="smbox" id="w1-7" style="background-color: #e8e9aa;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w2-7" style="background-color: #a1f196;display:flex;align-items:center;">計算機架構</div>
+        <div class="smbox" id="w3-7" style="background-color: #f5c4c4;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w4-7" style="background-color: #9cd5e4;display:flex;align-items:center;">歷史文明通論</div>
+        <div class="smbox" id="w5-7" style="background-color: #f7dd98;display:flex;align-items:center;">英語能力檢測輔導</div>
 
-        <div class="smbox" id="w1-8" style="background-color: #e8e9aa;"></div>
-        <div class="smbox" id="w2-8" style="background-color: #a1f196;">計算機架構</div>
-        <div class="smbox" id="w3-8" style="background-color: #f5c4c4;"></div>
-        <div class="smbox" id="w4-8" style="background-color: #9cd5e4;">歷史文明通論</div>
-        <div class="smbox" id="w5-8" style="background-color: #f7dd98;"></div>
+        <div class="smbox" id="w1-8" style="background-color: #e8e9aa;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w2-8" style="background-color: #a1f196;display:flex;align-items:center;">計算機架構</div>
+        <div class="smbox" id="w3-8" style="background-color: #f5c4c4;display:flex;align-items:center;"></div>
+        <div class="smbox" id="w4-8" style="background-color: #9cd5e4;display:flex;align-items:center;">歷史文明通論</div>
+        <div class="smbox" id="w5-8" style="background-color: #f7dd98;display:flex;align-items:center;"></div>
     </div>
 </div>
+<br><br><br>
 
 <style>
     .smbox{
@@ -85,13 +90,98 @@
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
-$("#w1-1").click(function(){
-    $("#w1-1").animate({
-        "width":"100%"
-    });
+$(document).ready(function() {
+    $("#sun").css("grid-template-columns","20% 20% 20% 20% 20%");
 });
+    var click = false;
+    var onshow = "";
+    $("#one").click(function(){
+        reset("one");
+        work("one",1);
+    })
+    $("#two").click(function(){
+        reset("two");
+        work("two",2);
+    })
+    $("#three").click(function(){
+        reset("three");
+        work("three",3);
+    })
+    $("#four").click(function(){
+        reset("four");
+        work("four",4);
+    })
+    $("#five").click(function(){
+        reset("five");
+        work("five",5);
+    })
 </script>
 
+<script>
+function work(day,num){
+    if(click==false){
+        $("#"+day).css({"background-color":"green","border-radius":"20px"});//跟隨星期
+        $("#sun").css("grid-template-columns","100%");
+        $("#aft").css("grid-template-columns","100%");
+        for(i=1;i<6;i++){
+            for(j=1;j<9;j++){
+                if(i==num){
+                    break;
+                }
+                $("#w"+i+"-"+j).hide();//以上條件隱藏
+                for(k=1;k<9;k++){
+                    $("#w"+num+"-"+k).css({"height":"100px","text-align":"left"});//未隱藏欄位放大
+                }
+            } 
+        }
+        click = true;
+        onshow = day;
+    }else{
+        $("#"+day).css("background-color","plum");
+        $("#"+day).css("border-radius","20px");
+        $("#sun").css("grid-template-columns","20% 20% 20% 20% 20%");
+        $("#aft").css("grid-template-columns","20% 20% 20% 20% 20%");
+        for(i=1;i<6;i++){
+            for(j=1;j<9;j++){
+                $("#w"+i+"-"+j).show();
+                for(k=1;k<9;k++){
+                    $("#w"+i+"-"+k).css({"height":"auto","text-align":"center"});//未隱藏欄位縮小
+                }
+
+            } 
+        }
+        click = false;
+    }
+}
+</script>
+<script>
+function reset(day){
+    $("#one").css("background-color","plum");
+    $("#one").css("border-radius","20px");
+    $("#two").css("background-color","plum");
+    $("#two").css("border-radius","20px");
+    $("#three").css("background-color","plum");
+    $("#three").css("border-radius","20px");
+    $("#four").css("background-color","plum");
+    $("#four").css("border-radius","20px");
+    $("#five").css("background-color","plum");
+    $("#five").css("border-radius","20px");
+    $("#sun").css("grid-template-columns","20% 20% 20% 20% 20%");
+    $("#aft").css("grid-template-columns","20% 20% 20% 20% 20%");
+    for(i=1;i<6;i++){
+        for(j=1;j<9;j++){
+            $("#w"+i+"-"+j).show();
+            for(k=1;k<9;k++){
+                $("#w"+i+"-"+k).css("height","auto");//未隱藏欄位縮小
+            }
+        } 
+    }
+    if(onshow != day){
+        click=false;
+    }
+
+}
+</script>
 
 </body>
 </html>
