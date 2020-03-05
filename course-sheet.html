@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的課表</title>
+</head>
+<body style="padding: 0%;margin-top: 0px;">
+    <!--<div style="width: 100%;background-color: blanchedalmond;border-radius: 20px;margin-top: 10px;">
+        <div style="width: 20%;background-color: pink;padding: 10px;border-radius: 20px;text-align: center;">
+            我的課表
+        </div>
+    </div>-->
+    <div style="width: 100%;background-color:white;position: fixed;right: 0;">
+        <div style="width: 100%;background-color:plum ;border-radius: 20px;margin-top: 10px;display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;">
+            <div style="padding: 10px;text-align: center;">一</div>
+            <div style="padding: 10px;text-align: center;">二</div>
+            <div style="padding: 10px;text-align: center;">三</div>
+            <div style="padding: 10px;text-align: center;">四</div>
+            <div style="padding: 10px;text-align: center;">五</div>
+        </div>
+    </div>
+
+    <br><br>
+    <div style="width: 100%;background-color:#e4dace ;border-radius: 20px;margin-top: 10px;display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;color: black;">
+        <div class="smbox" id="w1-1" style="background-color: #e8e9aa;"></div>
+        <div class="smbox" id="w2-1" style="background-color: #a1f196;">科技英文(二)</div>
+        <div class="smbox" id="w3-1" style="background-color: #f5c4c4;"></div>
+        <div class="smbox" id="w4-1" style="background-color: #9cd5e4;">分類通識</div>
+        <div class="smbox" id="w5-1" style="background-color: #f7dd98;"></div>
+        
+        <div class="smbox" id="w1-2" style="background-color: #e8e9aa;">資料結構</div>
+        <div class="smbox" id="w2-2" style="background-color: #a1f196;">科技英文(二)</div>
+        <div class="smbox" id="w3-2" style="background-color: #f5c4c4;">嵌入式微算機系統</div>
+        <div class="smbox" id="w4-2" style="background-color: #9cd5e4;">分類通識</div>
+        <div class="smbox" id="w5-2" style="background-color: #f7dd98;">虛擬實境實務</div>
+
+        <div class="smbox" id="w1-3" style="background-color: #e8e9aa;">Java程式設計</div>
+        <div class="smbox" id="w2-3" style="background-color: #a1f196;">資料庫系統概論</div>
+        <div class="smbox" id="w3-3" style="background-color: #f5c4c4;">嵌入式微算機系統</div>
+        <div class="smbox" id="w4-3" style="background-color: #9cd5e4;"></div>
+        <div class="smbox" id="w5-3" style="background-color: #f7dd98;">虛擬實境實務</div>
+        
+        <div class="smbox" id="w1-4" style="background-color: #e8e9aa;">Java程式設計</div>
+        <div class="smbox" id="w2-4" style="background-color: #a1f196;">資料庫系統概論</div>
+        <div class="smbox" id="w3-4" style="background-color: #f5c4c4;">嵌入式微算機系統</div>
+        <div class="smbox" id="w4-4" style="background-color: #9cd5e4;"></div>
+        <div class="smbox" id="w5-4" style="background-color: #f7dd98;">虛擬實境實務</div>
+    </div>
+        <!--下午-->
+    <div style="width: 100%;background-color:lavenderblush ;border-radius: 20px;margin-top: 10px;display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;">
+        <div class="smbox" id="w1-5" style="background-color: #e8e9aa;"></div>
+        <div class="smbox" id="w2-5" style="background-color: #a1f196;">資料庫系統概論</div>
+        <div class="smbox" id="w3-5" style="background-color: #f5c4c4;"></div>
+        <div class="smbox" id="w4-5" style="background-color: #9cd5e4;">資料結構</div>
+        <div class="smbox" id="w5-5" style="background-color: #f7dd98;">Java程式設計</div>
+
+        <div class="smbox" id="w1-6" style="background-color: #e8e9aa;"></div>
+        <div class="smbox" id="w2-6" style="background-color: #a1f196;">中文閱讀與表達(三)</div>
+        <div class="smbox" id="w3-6" style="background-color: #f5c4c4;"></div>
+        <div class="smbox" id="w4-6" style="background-color: #9cd5e4;">資料結構</div>
+        <div class="smbox" id="w5-6" style="background-color: #f7dd98;">Java程式設計</div>
+
+        <div class="smbox" id="w1-7" style="background-color: #e8e9aa;"></div>
+        <div class="smbox" id="w2-7" style="background-color: #a1f196;">計算機架構</div>
+        <div class="smbox" id="w3-7" style="background-color: #f5c4c4;"></div>
+        <div class="smbox" id="w4-7" style="background-color: #9cd5e4;">歷史文明通論</div>
+        <div class="smbox" id="w5-7" style="background-color: #f7dd98;">英語能力檢測輔導</div>
+
+        <div class="smbox" id="w1-8" style="background-color: #e8e9aa;"></div>
+        <div class="smbox" id="w2-8" style="background-color: #a1f196;">計算機架構</div>
+        <div class="smbox" id="w3-8" style="background-color: #f5c4c4;"></div>
+        <div class="smbox" id="w4-8" style="background-color: #9cd5e4;">歷史文明通論</div>
+        <div class="smbox" id="w5-8" style="background-color: #f7dd98;"></div>
+    </div>
+</div>
+
+<style>
+    .smbox{
+        border-radius: 20px;padding: 10px;margin:2px;text-align: center;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$("#w1-1").click(function(){
+    $("#w1-1").animate({
+        "width":"100%"
+    });
+});
+</script>
+
+
+</body>
+</html>
