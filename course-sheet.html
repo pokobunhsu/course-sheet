@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-Hant-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的課表</title>
 </head>
+
 <body style="padding: 0%;margin-top: 0px;">
     <!--<div style="width: 100%;background-color: blanchedalmond;border-radius: 20px;margin-top: 10px;">
         <div style="width: 20%;background-color: pink;padding: 10px;border-radius: 20px;text-align: center;">
@@ -24,33 +26,54 @@
     <div style="text-align: center;margin-top: 10px;">
         上午
     </div>
-    <div id="sun" style="width: 100%;background-color:#ffffff ;border-radius: 20px;margin-top: 10px;display: grid;color: black;">
-        <div class="smbox" id="w1-1" style="background-color: #e8e9aa;display:flex;align-items:center;" onclick="newshow(this)"></div>
-        <div class="smbox" id="w2-1" style="background-color: #a1f196;display:flex;align-items:center;" onclick="newshow(this)">科技英文(二)</div>
-        <div class="smbox" id="w3-1" style="background-color: #f5c4c4;display:flex;align-items:center;" onclick="newshow(this)"></div>
-        <div class="smbox" id="w4-1" style="background-color: #9cd5e4;display:flex;align-items:center;" onclick="newshow(this)">分類通識</div>
-        <div class="smbox" id="w5-1" style="background-color: #f7dd98;display:flex;align-items:center;" onclick="newshow(this)"></div>
-        
-        <div class="smbox" id="w1-2" style="background-color: #e8e9aa;display:flex;align-items:center;" onclick="newshow(this)">資料結構</div>
-        <div class="smbox" id="w2-2" style="background-color: #a1f196;display:flex;align-items:center;" onclick="newshow(this)">科技英文(二)</div>
-        <div class="smbox" id="w3-2" style="background-color: #f5c4c4;display:flex;align-items:center;" onclick="newshow(this)">嵌入式微算機系統</div>
-        <div class="smbox" id="w4-2" style="background-color: #9cd5e4;display:flex;align-items:center;" onclick="newshow(this)">分類通識</div>
-        <div class="smbox" id="w5-2" style="background-color: #f7dd98;display:flex;align-items:center;" onclick="newshow(this)">虛擬實境實務</div>
+    <div id="sun"
+        style="width: 100%;background-color:#ffffff ;border-radius: 20px;margin-top: 10px;display: grid;color: black;">
+        <div class="smbox" id="w1-1" style="background-color: #e8e9aa;display:flex;align-items:center;" onclick="">
+        </div>
+        <div class="smbox" id="w2-1" style="background-color: #a1f196;display:flex;align-items:center;" onclick="">
+            科技英文(二)</div>
+        <div class="smbox" id="w3-1" style="background-color: #f5c4c4;display:flex;align-items:center;" onclick="">
+        </div>
+        <div class="smbox" id="w4-1" style="background-color: #9cd5e4;display:flex;align-items:center;" onclick="">分類通識
+        </div>
+        <div class="smbox" id="w5-1" style="background-color: #f7dd98;display:flex;align-items:center;" onclick="">
+        </div>
 
-        <div class="smbox" id="w1-3" style="background-color: #e8e9aa;display:flex;align-items:center;"  onclick="newshow(this)">Java程式設計</div>
-        <div class="smbox" id="w2-3" style="background-color: #a1f196;display:flex;align-items:center;"  onclick="newshow(this)">資料庫系統概論</div>
-        <div class="smbox" id="w3-3" style="background-color: #f5c4c4;display:flex;align-items:center;"  onclick="newshow(this)">嵌入式微算機系統</div>
-        <div class="smbox" id="w4-3" style="background-color: #9cd5e4;display:flex;align-items:center;"  onclick="newshow(this)"></div>
-        <div class="smbox" id="w5-3" style="background-color: #f7dd98;display:flex;align-items:center;"  onclick="newshow(this)">虛擬實境實務</div>
-        
-        <div class="smbox" id="w1-4" style="background-color: #e8e9aa;display:flex;align-items:center;" onclick="newshow(this)">Java程式設計</div>
-        <div class="smbox" id="w2-4" style="background-color: #a1f196;display:flex;align-items:center;" onclick="newshow(this)">資料庫系統概論</div>
-        <div class="smbox" id="w3-4" style="background-color: #f5c4c4;display:flex;align-items:center;" onclick="newshow(this)">嵌入式微算機系統</div>
-        <div class="smbox" id="w4-4" style="background-color: #9cd5e4;display:flex;align-items:center;" onclick="newshow(this)"></div>
-        <div class="smbox" id="w5-4" style="background-color: #f7dd98;display:flex;align-items:center;" onclick="newshow(this)">虛擬實境實務</div>
+        <div class="smbox" id="w1-2" style="background-color: #e8e9aa;display:flex;align-items:center;" onclick="">資料結構
+        </div>
+        <div class="smbox" id="w2-2" style="background-color: #a1f196;display:flex;align-items:center;" onclick="">
+            科技英文(二)</div>
+        <div class="smbox" id="w3-2" style="background-color: #f5c4c4;display:flex;align-items:center;" onclick="">
+            嵌入式微算機系統</div>
+        <div class="smbox" id="w4-2" style="background-color: #9cd5e4;display:flex;align-items:center;" onclick="">分類通識
+        </div>
+        <div class="smbox" id="w5-2" style="background-color: #f7dd98;display:flex;align-items:center;" onclick="">
+            虛擬實境實務</div>
+
+        <div class="smbox" id="w1-3" style="background-color: #e8e9aa;display:flex;align-items:center;" onclick="">
+            Java程式設計</div>
+        <div class="smbox" id="w2-3" style="background-color: #a1f196;display:flex;align-items:center;" onclick="">
+            資料庫系統概論</div>
+        <div class="smbox" id="w3-3" style="background-color: #f5c4c4;display:flex;align-items:center;" onclick="">
+            嵌入式微算機系統</div>
+        <div class="smbox" id="w4-3" style="background-color: #9cd5e4;display:flex;align-items:center;" onclick="">
+        </div>
+        <div class="smbox" id="w5-3" style="background-color: #f7dd98;display:flex;align-items:center;" onclick="">
+            虛擬實境實務</div>
+
+        <div class="smbox" id="w1-4" style="background-color: #e8e9aa;display:flex;align-items:center;" onclick="">
+            Java程式設計</div>
+        <div class="smbox" id="w2-4" style="background-color: #a1f196;display:flex;align-items:center;" onclick="">
+            資料庫系統概論</div>
+        <div class="smbox" id="w3-4" style="background-color: #f5c4c4;display:flex;align-items:center;" onclick="">
+            嵌入式微算機系統</div>
+        <div class="smbox" id="w4-4" style="background-color: #9cd5e4;display:flex;align-items:center;" onclick="">
+        </div>
+        <div class="smbox" id="w5-4" style="background-color: #f7dd98;display:flex;align-items:center;" onclick="">
+            虛擬實境實務</div>
     </div>
     <br>
-<!--下午-->
+    <!--下午-->
     <div style="text-align: center;margin-top: 10px;">
         下午
     </div>
@@ -80,139 +103,233 @@
         <div class="smbox" id="w4-8" style="background-color: #9cd5e4;display:flex;align-items:center;">歷史文明通論</div>
         <div class="smbox" id="w5-8" style="background-color: #f7dd98;display:flex;align-items:center;"></div>
     </div>
-</div>
-<br><br><br>
-
-<div class="hidebox" id="DetailBox" style="display:none;">
-    <div style="margin:40px;">
-        資料結構<br>
-        Data Structures<br>
-        四資工二甲<br>
-        蔡秀滿<br>
-        逢508<br>
     </div>
-</div>
+    <br><br><br>
 
-<style>
-    .smbox{
-        border-radius: 20px;padding: 10px;margin:2px;text-align: center;
-    }
-    .hidebox{
-        width: 80%;height: 50%;;position: fixed;top: 50%;left:50%;background-color: #c3e9f3;transform: translate(-50%,-50%);
-        border-radius: 30px;
-    }
-</style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-$(document).ready(function() {
-    $("#sun").css("grid-template-columns","20% 20% 20% 20% 20%");
-});
-    var click = false;
-    var onshow = "";
-    $("#one").click(function(){
-        reset("one");
-        work("one",1);
-    })
-    $("#two").click(function(){
-        reset("two");
-        work("two",2);
-    })
-    $("#three").click(function(){
-        reset("three");
-        work("three",3);
-    })
-    $("#four").click(function(){
-        reset("four");
-        work("four",4);
-    })
-    $("#five").click(function(){
-        reset("five");
-        work("five",5);
-    })
+    <div class="hidebox" id="DetailBox" style="display:none;">
+        <div style="margin:40px;">
+            <span id="courseName"></span><br>
+            <span id="courseNameEng"></span><br>
+            <span id="courseClass"></span><br>
+            <span id="teacher"></span><br>
+            <span id="classroom"></span><br>
+        </div>
+    </div>
 
-    //width:150%;transform: translate(-50%);
-    function unibtn_one(btn_name){
-        $("#"+btn_name.id).animate({"z-index":"0","border-style": "solid","width":"460%"});
-        setTimeout(function(){       
-            $("#"+btn_name.id).css({"z-index":"","border-style": "","width":"auto"});            
-        }, 1000);
-    }
-
-//現在改壞掉嘞XD
-
-function work(day,num){
-    if(click==false){
-        $("#"+day).css({"background-color":"green","border-radius":"20px"});//跟隨星期
-        $("#sun").css("grid-template-columns","100%");
-        $("#aft").css("grid-template-columns","100%");
-        for(i=1;i<6;i++){
-            for(j=1;j<9;j++){
-                if(i==num){
-                    break;
-                }
-                $("#w"+i+"-"+j).hide();//以上條件隱藏
-                for(k=1;k<9;k++){
-                    $("#w"+num+"-"+k).css({"height":"100px","text-align":"left"});//未隱藏欄位放大
-                }
-            } 
+    <style>
+        .smbox {
+            border-radius: 20px;
+            padding: 10px;
+            margin: 2px;
+            text-align: center;
         }
-        click = true;
-        onshow = day;
-    }else{
-        $("#"+day).css("background-color","plum");
-        $("#"+day).css("border-radius","20px");
-        $("#sun").css("grid-template-columns","20% 20% 20% 20% 20%");
-        $("#aft").css("grid-template-columns","20% 20% 20% 20% 20%");
-        for(i=1;i<6;i++){
-            for(j=1;j<9;j++){
-                $("#w"+i+"-"+j).show();
-                for(k=1;k<9;k++){
-                    $("#w"+i+"-"+k).css({"height":"auto","text-align":"center"});//未隱藏欄位縮小
-                }
 
-            } 
+        .hidebox {
+            width: 80%;
+            height: 50%;
+            ;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            background-color: #c3e9f3;
+            transform: translate(-50%, -50%);
+            border-radius: 30px;
         }
-        click = false;
-    }
-}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#sun").css("grid-template-columns", "20% 20% 20% 20% 20%");
+        });
+        let courseName = ["資料結構", "Java程式設計", "科技英文(二)", "資料庫系統概論", "中文閱讀與表達(三)", "計算機架構", "嵌入式微算機系統", "分類通識", "歷史文明通論", "虛擬實境實務", "英語能力檢測輔導"]
+        let data = [{
+            courseNameEng: "Data Structures",
+            courseClass: "四資工二甲",
+            teacher: "蔡秀滿	",
+            classroom: "逢508"
+        }, {
+            courseNameEng: "Java Programming",
+            courseClass: "四資工二甲",
+            teacher: "李紀萍",
+            classroom: "逢428數位網路教室"
+        }, {
+            courseNameEng: "Technology English (II)",
+            courseClass: "四資工二甲",
+            teacher: "江世偉",
+            classroom: "光303"
+        }, {
+            courseNameEng: "Introduction to Database Systems",
+            courseClass: "四資工二甲",
+            teacher: "戴建誠",
+            classroom: "逢513軟體工程教室"
+        }, {
+            courseNameEng: "Chinese Reading and Expressions (III)",
+            courseClass: "四資工二甲",
+            teacher: "羅保羅",
+            classroom: "逢511"
+        }, {
+            courseNameEng: "Computer Architectures",
+            courseClass: "四資工二甲",
+            teacher: "李懋楨",
+            classroom: "逢513軟體工程教室"
+        }, {
+            courseNameEng: "Embedded Microcomputer System",
+            courseClass: "四資工二甲",
+            teacher: "鄭光欽",
+            classroom: "逢419智慧機器人教室"
+        }, {
+            courseNameEng: "Classified General Education",
+            courseClass: "四電二乙",
+            teacher: "古旻陞",
+            classroom: "明501"
+        }, {
+            courseNameEng: "The Theory of History and Civilization",
+            courseClass: "四資工二甲",
+            teacher: "牟立邦",
+            classroom: "逢508"
+        }, {
+            courseNameEng: "Virtual Reality Practice",
+            courseClass: "四資工二甲",
+            teacher: "曾俊霖",
+            classroom: "鴻217教室"
+        }, {
+            courseNameEng: "English proficiency test counselling",
+            courseClass: "四資工二甲",
+            teacher: "王文宏",
+            classroom: "逢508"
+        }]
+        var click = false;
+        var onshow = "";
+        $("#one").click(function () {
+            reset("one");
+            work("one", 1);
+        })
+        $("#two").click(function () {
+            reset("two");
+            work("two", 2);
+        })
+        $("#three").click(function () {
+            reset("three");
+            work("three", 3);
+        })
+        $("#four").click(function () {
+            reset("four");
+            work("four", 4);
+        })
+        $("#five").click(function () {
+            reset("five");
+            work("five", 5);
+        })
 
-function reset(day){
-    $("#one").css("background-color","plum");
-    $("#one").css("border-radius","20px");
-    $("#two").css("background-color","plum");
-    $("#two").css("border-radius","20px");
-    $("#three").css("background-color","plum");
-    $("#three").css("border-radius","20px");
-    $("#four").css("background-color","plum");
-    $("#four").css("border-radius","20px");
-    $("#five").css("background-color","plum");
-    $("#five").css("border-radius","20px");
-    $("#sun").css("grid-template-columns","20% 20% 20% 20% 20%");
-    $("#aft").css("grid-template-columns","20% 20% 20% 20% 20%");
-    for(i=1;i<6;i++){
-        for(j=1;j<9;j++){
-            $("#w"+i+"-"+j).show();
-            for(k=1;k<9;k++){
-                $("#w"+i+"-"+k).css("height","auto");//未隱藏欄位縮小
+        //width:150%;transform: translate(-50%);
+        function unibtn_one(btn_name) {
+            $("#" + btn_name.id).animate({ "z-index": "0", "border-style": "solid", "width": "460%" });
+            setTimeout(function () {
+                $("#" + btn_name.id).css({ "z-index": "", "border-style": "", "width": "auto" });
+            }, 1000);
+        }
+
+        //現在改壞掉嘞XD
+
+        function work(day, num) {
+            if (click == false) {
+                $("#" + day).css({ "background-color": "green", "border-radius": "20px" });//跟隨星期
+                $("#sun").css("grid-template-columns", "100%");
+                $("#aft").css("grid-template-columns", "100%");
+                for (i = 1; i < 6; i++) {
+                    for (j = 1; j < 9; j++) {
+                        if (i == num) {
+                            break;
+                        }
+                        $("#w" + i + "-" + j).hide();//以上條件隱藏
+                        for (k = 1; k < 9; k++) {
+                            $("#w" + num + "-" + k).css({ "height": "100px", "text-align": "left" });//未隱藏欄位放大
+                        }
+                    }
+                }
+                click = true;
+                onshow = day;
+            } else {
+                $("#" + day).css("background-color", "plum");
+                $("#" + day).css("border-radius", "20px");
+                $("#sun").css("grid-template-columns", "20% 20% 20% 20% 20%");
+                $("#aft").css("grid-template-columns", "20% 20% 20% 20% 20%");
+                for (i = 1; i < 6; i++) {
+                    for (j = 1; j < 9; j++) {
+                        $("#w" + i + "-" + j).show();
+                        for (k = 1; k < 9; k++) {
+                            $("#w" + i + "-" + k).css({ "height": "auto", "text-align": "center" });//未隱藏欄位縮小
+                        }
+
+                    }
+                }
+                click = false;
             }
-        } 
-    }
-    if(onshow != day){
-        click=false;
-    }
-}
+        }
 
-function newshow(){
-    $("#DetailBox").fadeIn();
-    setTimeout(function(){
-        $("#DetailBox").fadeOut();
-    },1500)
+        function reset(day) {
+            $("#one").css("background-color", "plum");
+            $("#one").css("border-radius", "20px");
+            $("#two").css("background-color", "plum");
+            $("#two").css("border-radius", "20px");
+            $("#three").css("background-color", "plum");
+            $("#three").css("border-radius", "20px");
+            $("#four").css("background-color", "plum");
+            $("#four").css("border-radius", "20px");
+            $("#five").css("background-color", "plum");
+            $("#five").css("border-radius", "20px");
+            $("#sun").css("grid-template-columns", "20% 20% 20% 20% 20%");
+            $("#aft").css("grid-template-columns", "20% 20% 20% 20% 20%");
+            for (i = 1; i < 6; i++) {
+                for (j = 1; j < 9; j++) {
+                    $("#w" + i + "-" + j).show();
+                    for (k = 1; k < 9; k++) {
+                        $("#w" + i + "-" + k).css("height", "auto");//未隱藏欄位縮小
+                    }
+                }
+            }
+            if (onshow != day) {
+                click = false;
+            }
+        }
 
-}
+        function newshow() {
+            $("#DetailBox").fadeIn();
+            setTimeout(function () {
+                $("#DetailBox").fadeOut();
+            }, 1500)
+
+        }
+
+        document.querySelector('#sun').addEventListener('click', (e) => {
+            console.log(e.target.textContent.replace(/\s+/g, ''))
+            let clickCourseIndex = courseName.indexOf(e.target.textContent.replace(/\s+/g, ''))
+            if (clickCourseIndex != -1) {
+                document.querySelector('#courseName').textContent = courseName[clickCourseIndex]
+                document.querySelector('#courseNameEng').textContent = data[clickCourseIndex].courseNameEng
+                document.querySelector('#classroom').textContent = data[clickCourseIndex].classroom
+                document.querySelector('#teacher').textContent = data[clickCourseIndex].teacher
+                document.querySelector('#courseClass').textContent = data[clickCourseIndex].courseClass
+                newshow()
+            }
+        })
+        document.querySelector('#aft').addEventListener('click', (e) => {
+            console.log(e.target.textContent.replace(/\s+/g, ''))
+            let clickCourseIndex = courseName.indexOf(e.target.textContent.replace(/\s+/g, ''))
+            if (clickCourseIndex != -1) {
+                document.querySelector('#courseName').textContent = courseName[clickCourseIndex]
+                document.querySelector('#courseNameEng').textContent = data[clickCourseIndex].courseNameEng
+                document.querySelector('#classroom').textContent = data[clickCourseIndex].classroom
+                document.querySelector('#teacher').textContent = data[clickCourseIndex].teacher
+                document.querySelector('#courseClass').textContent = data[clickCourseIndex].courseClass
+                newshow()
+            }
+        })
 
 
 
-</script>
+    </script>
 
 </body>
+
 </html>
